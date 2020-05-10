@@ -3,7 +3,8 @@ package model;
 public class Employee {
 	private int id;
 	private String name;
-	private float salary;
+	private Double salary;
+	private String designation;
 
 	public int getId() {
 		return id;
@@ -17,11 +18,17 @@ public class Employee {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public float getSalary() {
+	public Double getSalary() {
 		return salary;
 	}
-	public void setSalary(float salary) {
+	public void setSalary(Double salary) {
 		this.salary = salary;
+	}
+	public String getDesignation() {
+		return designation;
+	}
+	public void setDesignation(String designation) {
+		this.designation = designation;
 	}
 	
 }
